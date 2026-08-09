@@ -4,25 +4,42 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="referrer" content="strict-origin-when-cross-origin">
-<title>ATuber App</title>
+<title>OfflineYT4</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="topbar"><button id="homeBtn" class="brand">ATUBER APP</button></header>
+<header class="topbar">
+  <button id="homeBtn" class="brand">OfflineYT4</button>
+</header>
+
 <main>
-<section id="channelsView"><div id="channels"></div><p id="status" class="status"></p></section>
-<section id="videosView" class="hidden">
-<button id="channelsBtn" class="back">← Kanavat</button>
-<div id="channelHeader"></div>
-<div id="videos" class="video-grid"></div>
-<p id="videoStatus" class="status"></p>
-<div id="pagination" class="pagination"></div>
-</section>
-<section id="playerView" class="hidden">
-<div id="playerHost" class="player-host"></div>
-<div class="player-bar"><button id="playerBack" class="back">← Takaisin</button><div id="playerTitle"></div></div>
-</section>
+  <section id="homeView">
+    <h2>Kanavat</h2>
+    <div id="channels"></div>
+
+    <h2 class="section-title">Soittolistat</h2>
+    <div id="playlists"></div>
+
+    <p id="status" class="status"></p>
+  </section>
+
+  <section id="videosView" class="hidden">
+    <button id="homeBackBtn" class="back">← Takaisin</button>
+    <div id="sourceHeader"></div>
+    <div id="videos" class="video-grid"></div>
+    <p id="videoStatus" class="status"></p>
+    <div id="pagination" class="pagination"></div>
+  </section>
+
+  <section id="playerView" class="hidden">
+    <div id="playerHost" class="player-host"></div>
+    <div class="player-bar">
+      <button id="playerBack" class="back">← Takaisin</button>
+      <div id="playerTitle"></div>
+    </div>
+  </section>
 </main>
+
 <script src="config.js"></script>
 <script src="app.js"></script>
 </body>
