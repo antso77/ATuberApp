@@ -1,0 +1,22 @@
+MIT App Inventor - lohkojen rakenne
+
+Screen1.Initialize
+    set CustomWebView1.JavaScriptEnabled to true
+    set CustomWebView1.DomStorageEnabled to true
+    set CustomWebView1.FullscreenVideo to true
+    call CustomWebView1.GoToUrl(
+        "https://KAYTTAJANIMI.github.io/REPOSITORY/"
+    )
+
+HUOM:
+CustomWebView-laajennuksen ominaisuuksien tarkat nimet riippuvat AIX-versiosta.
+Jos komponentti käyttää esimerkiksi LoadUrl/Load URL -nimistä metodia, käytä sitä vastaavasti.
+
+Screen1.BackPressed
+    jos CustomWebView on fullscreenissä:
+        anna CustomWebViewn käsitellä takaisin-painike
+    muuten:
+        jos WebView voi palata:
+            GoBack
+        muuten:
+            sulje sovellus

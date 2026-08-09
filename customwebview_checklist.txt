@@ -1,0 +1,18 @@
+CustomWebView-tarkistuslista
+
+[ ] JavaScript enabled
+[ ] DOM Storage enabled
+[ ] Fullscreen video enabled
+[ ] WebView occupies full screen
+[ ] GitHub Pages URL toimii
+[ ] YouTube iframe näkyy
+[ ] Fullscreen-painike näkyy
+[ ] Fullscreen avautuu
+[ ] Android takaisin-painike poistuu fullscreenistä
+[ ] Pysty/vaaka-orientaatio toimii kuten halutaan
+
+Jos fullscreen ei avaudu:
+- varmista että iframe sisältää allowfullscreen
+- varmista että iframe allow sisältää fullscreen
+- varmista että CustomWebView käyttää WebChromeClientia
+- varmista että CustomWebView-versio tukee onShowCustomView/onHideCustomView

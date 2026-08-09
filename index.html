@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>My YouTube</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <button id="homeBtn" class="brand">MY YOUTUBE</button>
+    <button id="backBtn" class="icon-btn" aria-label="Takaisin">←</button>
+  </header>
+
+  <main>
+    <section id="channelsView">
+      <h1>Kanavat</h1>
+      <div id="channels" class="channel-list"></div>
+      <p id="status" class="status"></p>
+    </section>
+
+    <section id="videosView" class="hidden">
+      <div class="section-head">
+        <button id="channelsBtn" class="secondary">← Kanavat</button>
+        <h1 id="channelTitle"></h1>
+      </div>
+      <div id="videos" class="video-grid"></div>
+      <p id="videoStatus" class="status"></p>
+    </section>
+
+    <section id="playerView" class="hidden player-view">
+      <button id="playerBack" class="secondary">← Takaisin videoihin</button>
+      <div class="player-wrap">
+        <div id="player"></div>
+      </div>
+      <h2 id="playerTitle"></h2>
+    </section>
+  </main>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
