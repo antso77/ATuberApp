@@ -6,9 +6,14 @@ const CONFIG = {
   channels: [
     { name: "LevelUPAnimations", id: "UCNK813T2BNBwcfDPDTPeMPA" },
     { name: "MadShenans", id: "UCEGOLGL2u5-HZdZXQahc3oA" },
-    { name: "EarthNowLive", id: "UChnIgJ8_PDy0AwV84XP9HTA" },
-    {name: "Pat & Mat Music, id: "PLAUfZXdKeGB9kMSvzwo5z28i3jtRybnGq"},
-    {name: "Pat & Mat A je to! Music", id: "PLAUfZXdKeGB8suzrOh_U7nN4Ro6u7mdAh"}
+    { name: "EarthNowLive", id: "UChnIgJ8_PDy0AwV84XP9HTA" }
   ],
-  videosPerChannel: 12
+
+  playlists: [
+    { name: "Pat & Mat Music", id: "PLAUfZXdKeGB9kMSvzwo5z28i3jtRybnGq" },
+    { name: "Pat & Mat A je to! Music", id: "PLAUfZXdKeGB8suzrOh_U7nN4Ro6u7mdAh" }
+  ],
+
+  videosPerPage: 12
 };
+
