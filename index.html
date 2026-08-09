@@ -1,43 +1,29 @@
 <!doctype html>
 <html lang="fi">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <title>ATuber YouTube</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>ATuber App</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="topbar">
-    <button id="homeBtn" class="brand">Artun oma YOUTUBE</button>
-    <button id="backBtn" class="icon-btn" aria-label="Takaisin">←</button>
-  </header>
-
-  <main>
-    <section id="channelsView">
-      <h1>Kanavat</h1>
-      <div id="channels" class="channel-list"></div>
-      <p id="status" class="status"></p>
-    </section>
-
-    <section id="videosView" class="hidden">
-      <div class="section-head">
-        <button id="channelsBtn" class="secondary">← Kanavat</button>
-        <h1 id="channelTitle"></h1>
-      </div>
-      <div id="videos" class="video-grid"></div>
-      <p id="videoStatus" class="status"></p>
-    </section>
-
-    <section id="playerView" class="hidden player-view">
-      <button id="playerBack" class="secondary">← Takaisin videoihin</button>
-      <div class="player-wrap">
-        <div id="player"></div>
-      </div>
-      <h2 id="playerTitle"></h2>
-    </section>
-  </main>
-
-  <script src="config.js"></script>
-  <script src="app.js"></script>
+<header class="topbar"><button id="homeBtn" class="brand">ATUBER APP</button></header>
+<main>
+<section id="channelsView"><div id="channels"></div><p id="status" class="status"></p></section>
+<section id="videosView" class="hidden">
+<button id="channelsBtn" class="back">← Kanavat</button>
+<div id="channelHeader"></div>
+<div id="videos" class="video-grid"></div>
+<p id="videoStatus" class="status"></p>
+<div id="pagination" class="pagination"></div>
+</section>
+<section id="playerView" class="hidden">
+<div id="playerHost" class="player-host"></div>
+<div class="player-bar"><button id="playerBack" class="back">← Takaisin</button><div id="playerTitle"></div></div>
+</section>
+</main>
+<script src="config.js"></script>
+<script src="app.js"></script>
 </body>
 </html>
