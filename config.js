@@ -2,9 +2,11 @@
 // Rajoita avain Google Cloudissa vain YouTube Data API v3:een ja tarvittaessa
 // GitHub Pages -domainiisi.
 const CONFIG = {
-  apiKey: "LISAA_API_AVAIN_TAHAN",
+  apiKey: "AIzaSyBKDoz1MWAZtPLZl9fW3gufQHDfttNxG74",
   channels: [
-    { name: "Esimerkkikanava", id: "UC_x5XG1OV2P6uZZ5FSM9Ttw" }
+    { name: "LevelUPAnimations", id: "UCNK813T2BNBwcfDPDTPeMPA" },
+    { name: "MadShenans", id: "UCEGOLGL2u5-HZdZXQahc3oA" },
+    { name: "EarthNowLive", id: "UCWL76uAEYNfFFpDFmx9MXyQ" }
   ],
   videosPerChannel: 12
 };
