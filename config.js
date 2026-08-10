@@ -21,7 +21,9 @@ const CONFIG = {
 
   playlists: [
     { name: "Pat & Mat Music", id: "PLAUfZXdKeGB9kMSvzwo5z28i3jtRybnGq" },
-    { name: "Pat & Mat A je to! Music", id: "PLAUfZXdKeGB8suzrOh_U7nN4Ro6u7mdAh" }
+    { name: "Pat & Mat A je to! Music", id: "PLAUfZXdKeGB8suzrOh_U7nN4Ro6u7mdAh" },
+    { name: "Amazing World of Gumball Reactions", id: "PLTsyt27b2WFDWBmuNXd3xSqoOupcWyxaR"},
+    { name: "The Wonderfully Weird World of Gumball Reactions", id: "PLTsyt27b2WFBc1PM9Y7AX1xukQbN6Plp9"}
   ],
 
   videosPerPage: 12
