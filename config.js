@@ -9,7 +9,7 @@ const CONFIG = {
     { name: "EarthNowLive", id: "UChnIgJ8_PDy0AwV84XP9HTA" },
     { name: "Nate Ziller", id: "UC75sZDv6cuxARkRuouhHKwg"},
     { name: "ArimuraTaishi", id: "UCw3PQjMe2Xjhs9fBBAhchkg"},
-    { name: "retrosutra", id: "UCo3gu5hwTBV5c2U3eR2ZxNg"},
+    { name: "retrosutra", id: "UC9JDWmmnaSjeLoAqbpl24uA"},
     { name: "SMG4 SHORTS", id: "UCUbslKd64OsMpBKhGJTNegg"},
     { name: "Team Level UP", id: "UCdBU4IkJRKX6CRHPdxuofKw"},
     { name: "JackNJellify", id: "UCeKLuqGciqZZ5RFYk5CbqXg"},
