@@ -18,6 +18,7 @@ const CONFIG = {
     { name: "Pixi-Gags", id: "UC4cRiYSyYzw-rqFnGSTmw6w"},
     { name: "petsasjim1", id: "UCm5AA3G5UYTYjohxC7If9Cg"},
     { name: "CandyJam Animations", id: "UCEYJF55I9wWRv0dp8AnRCgw"}
+    { name: "Hydraulic Press Channel", id: "UCcMDMoNu66_1Hwi5-MeiQgw"}
   ],
 
   playlists: [
