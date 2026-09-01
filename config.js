@@ -25,6 +25,7 @@ const CONFIG = {
     { name: "Pat & Mat Music", id: "PLAUfZXdKeGB9kMSvzwo5z28i3jtRybnGq" },
     { name: "Pat & Mat A je to! Music", id: "PLAUfZXdKeGB8suzrOh_U7nN4Ro6u7mdAh" },
     { name: "Rhythm Heaven Playthrough", id: "PLDKzS4VtdaskhBvlwqVF2n5ktnhTKngVy"},
+    { name: "Steltronic Bowling Animations", id: "PL7DmyyCPRgfKmR-TU9NLaFQ4s1dXD0X2M"},
     { name: "Amazing World of Gumball Reactions", id: "PLTsyt27b2WFDWBmuNXd3xSqoOupcWyxaR"}
   ],
 
