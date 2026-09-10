@@ -22,6 +22,7 @@ const CONFIG = {
   ],
 
   playlists: [
+    { name: "Pat & Mat", id: "PLtI2v8L6OBAEwrVBuuMDS5Y_bhLxYk8xB" },
     { name: "Pat & Mat Music", id: "PLAUfZXdKeGB9kMSvzwo5z28i3jtRybnGq" },
     { name: "Pat & Mat A je to! Music", id: "PLAUfZXdKeGB8suzrOh_U7nN4Ro6u7mdAh" },
     { name: "Rhythm Heaven Playthrough", id: "PLDKzS4VtdaskhBvlwqVF2n5ktnhTKngVy"},
