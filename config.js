@@ -30,7 +30,7 @@ const CONFIG = {
     { name: "Amazing World of Gumball Reactions", id: "PLTsyt27b2WFDWBmuNXd3xSqoOupcWyxaR"},
     { name: "Inanimate Insanity Season 2", id: "PLU4y8Uu0CFt4HI-NKzwv98zDAB09AkVCY"},
     { name: "THE AMAZING DIGITAL CIRCUS", id: "PLVh5stRuYi87om5cggOuSbF4RyrEn5DRD"},
-    { name: "Nemi animated series", "PLzFOLBx2TR6b1N2kEegTD8rtNGZOjkpri"}
+    { name: "THE AMAZING DIGITAL CIRCUS", id: "PLzFOLBx2TR6b1N2kEegTD8rtNGZOjkpri"}
   ],
 
   videosPerPage: 12
