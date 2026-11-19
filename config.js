@@ -28,8 +28,8 @@ const CONFIG = {
     { name: "Pat & Mat A je to! Music", id: "PLAUfZXdKeGB8suzrOh_U7nN4Ro6u7mdAh" },
     { name: "Rhythm Heaven Playthrough", id: "PLDKzS4VtdaskhBvlwqVF2n5ktnhTKngVy"},
     { name: "Steltronic Bowling Animations", id: "PL7DmyyCPRgfKmR-TU9NLaFQ4s1dXD0X2M"},
-    { name: "Spongebob Squarepants Reaction (Reactuna)", id: "PLTsyt27b2WFDWBmuNXd3xSqoOupcWyxaR"},
-     { name: "Amazing World of Gumball Reactions", id: "PLdr3SymIm2YM"},
+    { name: "Amazing World of Gumball Reactions", id: "PLTsyt27b2WFDWBmuNXd3xSqoOupcWyxaR"},
+     { name: "Spongebob Squarepants Reaction (Reactuna)", id: "PLdr3SymIm2YM"},
     { name: "Inanimate Insanity Season 2", id: "PLU4y8Uu0CFt4HI-NKzwv98zDAB09AkVCY"},
     { name: "THE AMAZING DIGITAL CIRCUS", id: "PLVh5stRuYi87om5cggOuSbF4RyrEn5DRD"},
     { name: "Nemi Animated Series", id: "PLzFOLBx2TR6b1N2kEegTD8rtNGZOjkpri"}
